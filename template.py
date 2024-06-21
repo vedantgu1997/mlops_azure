@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s] : %(message)s')
 
-projectname = 'cellSegmentation'
+projectname = 'imgSegmentation'
 
 listOfFiles = [
     '.github/workflows/.gitkeep',

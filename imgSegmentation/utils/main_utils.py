@@ -3,8 +3,8 @@ import sys
 import yaml
 import base64
 
-from cellSegmentation.exception import AppException
-from cellSegmentation.logger import logging
+from imgSegmentation.exception import AppException
+from imgSegmentation.logger import logging
 
 def read_yaml_file(file_path: str):
     """

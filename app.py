@@ -1,12 +1,6 @@
-from cellSegmentation.logger import logging
-from cellSegmentation.exception import AppException
-import sys
+import sys, os
+from imgSegmentation.pipeline.training_pipeline import TrainingPipeline
 
-logging.info('Welcome to custom logger!')
-
-try:
-    a = 4/'6'
-
-
-except Exception as e:
-    raise AppException(e, sys)
+obj = TrainingPipeline()
+obj.run_pipeline()
+print('Training done successfully! ')
